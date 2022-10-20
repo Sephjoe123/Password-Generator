@@ -9,7 +9,7 @@ var password = document.getElementById("password")
 
 let Capitals = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 let smallLetters = "abcdefghijklmnopqrstuvwxyz";
-let randomNumbers = "@";
+let randomNumbers = "@!#$%^&&*()";
 let Symbols = "01234567";
 
 
