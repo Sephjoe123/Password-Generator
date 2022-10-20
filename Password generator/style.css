@@ -26,11 +26,12 @@ body{
 #input,#length{
     outline: none;
 }
-#input{
+#password{
     width: 83%;
     padding: 15px 0px;
     display: block;
     margin: auto;
+    font-size: 1.2rem;
 }
 h1{
     font-size: 1.7rem;
