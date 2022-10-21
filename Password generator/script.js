@@ -6,7 +6,6 @@ var length = document.getElementById("length")
 var generateBtn = document.getElementById("generate")
 var password = document.getElementById("password")
 
-
 let Capitals = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 let smallLetters = "abcdefghijklmnopqrstuvwxyz";
 let randomNumbers = "@!#$%^&&*()";
@@ -62,7 +61,7 @@ let arrayCount = [{lowerFunc},{higerFunc},{symbolFunc},{numberFunc}].filter(item
     Object.values(item)[0]
 )
 
-if(checkCount === 0){
+if(checkCount == 0){
     return '';
 }
 
